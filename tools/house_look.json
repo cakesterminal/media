@@ -1,0 +1,36 @@
+{
+  "name": "Cakes Terminal house look",
+  "derived_from": "5 before/after pairs supplied by Guy on 2026-10-20 (Elmo, flamingo, princess, cake pops, engagement cookies)",
+  "backdrop_wall_Lab": {
+    "L": 88.5,
+    "a": 1.8,
+    "b": 0.4
+  },
+  "output": {
+    "size_px": [
+      1080,
+      1350
+    ],
+    "aspect": "4:5 portrait",
+    "format": "sRGB baseline JPEG, quality 92 (stepped down only if over 1.5 MB)"
+  },
+  "framing_standing_cake": {
+    "top_of_topper_pct": 6.0,
+    "cake_body_bottom_pct": 93.5,
+    "max_subject_width_pct": 86,
+    "horizontal": "centered",
+    "board": "cake board kept fully in frame (detected by its rim edge)"
+  },
+  "framing_full_frame": "close-ups fill the width with the product base in view; flat lays are center-cropped",
+  "seam": "wall/table joint replaced by a smooth gradient, background only",
+  "never_touched": "the cake itself: no retouching, no object removal, no straightening (done in Lightroom)",
+  "pipeline_files": [
+    "retouch.py",
+    "subject.py"
+  ],
+  "even_lighting": "side-to-side light falloff (e.g. bright left fading darker to the right) is measured on the backdrop and evened out across the whole frame, cake included, so the scene reads as uniformly lit; skipped when the difference is under ~4%",
+  "updated": "2026-10-20: 4:5 output, board detection, GitHub hosting",
+  "ready_photos": "marked 'ready to post': no changes at all, scheduled as-is",
+  "captions": "describe design and occasion only - never ingredients, materials, flavors, icing or cake type",
+  "hosting": "finished photos pushed to github.com/cakesterminal/media under cakes-terminal/YYYY-MM/, linked in Buffer via raw.githubusercontent.com"
+}
